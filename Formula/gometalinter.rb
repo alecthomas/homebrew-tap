@@ -1,9 +1,9 @@
 class Gometalinter < Formula
   desc "Concurrently run Go lint tools and normalise their output."
   homepage "https://github.com/alecthomas/gometalinter"
-  url "https://github.com/alecthomas/gometalinter/releases/download/v2.0.8/gometalinter-2.0.8-darwin-amd64.tar.gz"
-  version "2.0.8"
-  sha256 "d75916592c4d596ec615bdbb752cde097001c3f58c79e85b24732af5a351ec95"
+  url "https://github.com/alecthomas/gometalinter/releases/download/v2.0.9/gometalinter-2.0.9-darwin-amd64.tar.gz"
+  version "2.0.9"
+  sha256 "69c9a22311e73365dd186e4cc3b7cfa1ef03f6b0b866d30e6203572379d97549"
 
   def install
     bin.install "gometalinter"
